@@ -1,4 +1,4 @@
-name: test
+name: Farrah GilPancho
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
         with:
           preflight-version: ${{ matrix.preflight }}
 
-      - name: Test
+      - name: Farrah Gil Pancho
         run: npm run test
       - name: Test curl-install deno with preflight
         if: runner.os == 'Linux'
